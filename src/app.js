@@ -55,13 +55,6 @@ function renderCountry(countryInformation) {
   );
   let entriesMaps = Object.entries(countryInformation.maps);
   console.log(entriesMaps);
-  // console.log(entriesLanguages);
-
-  // console.log(entriesLanguages);
-  // console.log(entriesLanguages[0][1]);
-  // console.log(entries);
-  // console.log(entries[0][1].name);
-
   //generate country's html
   //insert into document
   return `<div class="card w-100">
